@@ -1,0 +1,37 @@
+body{
+    background-color: #111111;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+
+p{
+    color: #FFFFFF;
+    font-family: Fira Code;
+}
+
+h1{
+    color: greenyellow;
+    font-family: Fira Code;
+}
+
+a{
+  position: absolute;  /* position relative to container */
+  bottom: 0;           /* stick to bottom */
+  width: 100%;         /* full width */
+  text-align: center;  /* optional: center text */
+  padding: 5px 0;      /* optional spacing */
+  color: greenyellow;
+
+}
+
+.video{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  
+}
